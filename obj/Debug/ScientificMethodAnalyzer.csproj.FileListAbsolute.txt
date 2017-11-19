@@ -1,0 +1,7 @@
+C:\Users\Jannis\Documents\ScieboCloud\Master\Programming\C#\ScientificMethodAnalyzer\ScientificMethodAnalyzer\ScientificMethodAnalyzer\bin\Debug\ScientificMethodAnalyzer.exe.config
+C:\Users\Jannis\Documents\ScieboCloud\Master\Programming\C#\ScientificMethodAnalyzer\ScientificMethodAnalyzer\ScientificMethodAnalyzer\bin\Debug\ScientificMethodAnalyzer.exe
+C:\Users\Jannis\Documents\ScieboCloud\Master\Programming\C#\ScientificMethodAnalyzer\ScientificMethodAnalyzer\ScientificMethodAnalyzer\bin\Debug\ScientificMethodAnalyzer.pdb
+C:\Users\Jannis\Documents\ScieboCloud\Master\Programming\C#\ScientificMethodAnalyzer\ScientificMethodAnalyzer\ScientificMethodAnalyzer\obj\Debug\ScientificMethodAnalyzer.csprojResolveAssemblyReference.cache
+C:\Users\Jannis\Documents\ScieboCloud\Master\Programming\C#\ScientificMethodAnalyzer\ScientificMethodAnalyzer\ScientificMethodAnalyzer\obj\Debug\ScientificMethodAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\Jannis\Documents\ScieboCloud\Master\Programming\C#\ScientificMethodAnalyzer\ScientificMethodAnalyzer\ScientificMethodAnalyzer\obj\Debug\ScientificMethodAnalyzer.exe
+C:\Users\Jannis\Documents\ScieboCloud\Master\Programming\C#\ScientificMethodAnalyzer\ScientificMethodAnalyzer\ScientificMethodAnalyzer\obj\Debug\ScientificMethodAnalyzer.pdb
