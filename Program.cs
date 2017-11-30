@@ -8,8 +8,10 @@ using System.Threading.Tasks;
 
 namespace ScientificMethodAnalyzer
 {
+    
     class Program
     {
+        public static int kk = 0;
         const int minimalValidCharacters = 500;
         static Output outputData = new Output();
         static string[] languagesArray;
@@ -37,7 +39,7 @@ namespace ScientificMethodAnalyzer
                 string word;
                 while ((word = sr.ReadLine()) != null)
                 {
-                    if (word.Length <= 1) continue;
+                    if (word.Length <= 1 || word.Distinct().Count() == 1) continue;
                     int i = 0;
                     foreach(string sample in rawDataSamples)
                     {
@@ -53,10 +55,11 @@ namespace ScientificMethodAnalyzer
             }
 
 
-            
+            int l = 0;
             foreach (DataSample ds in dataSamples)
             {
-                outputData.Add(ds.GenerateFileOutput() + "\n");
+                outputData.Add(ds.GenerateFileOutput() + "\t" + rawDataSamples.ElementAt(l).Count() + "\n");
+                l++;
             }
 
             // foreach Dictonary // Same order as in DataSample
@@ -165,7 +168,7 @@ namespace ScientificMethodAnalyzer
                 {
                     // Remove everything that isn't a-z
                     regexString = @"[^a-z]";
-    }
+                }
 
                 Regex keepAlphabet = new Regex(regexString);
                 content = keepAlphabet.Replace(content, String.Empty);
@@ -178,6 +181,10 @@ namespace ScientificMethodAnalyzer
                 }
                 else
                 {
+
+                    dataContent.Add(content);
+                    // OR: take defined amount of valid letters into account
+                    /*
                     if(content.Length >= minimalValidCharacters)
                     {
                         dataContent.Add(content.Substring(0, minimalValidCharacters));
@@ -188,6 +195,7 @@ namespace ScientificMethodAnalyzer
                     }
                     // if final dataString too small: go over it and don't car
                     // that, of course, results in a smaller n!
+                    */
                 }
             }
             return dataContent;
